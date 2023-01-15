@@ -8,4 +8,8 @@ public class IDandPasswords {
 		logininfo.put("Ahmed", "aajli");
 		logininfo.put("BroCode", "abc123");
 	}
+	
+	protected HashMap getLoginInfo() {
+		return logininfo;
+	}
 }

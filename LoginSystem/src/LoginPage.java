@@ -24,9 +24,15 @@ public class LoginPage implements ActionListener{
 		 
 		 logininfo = loginInfoOriginal;
 		 
+		 userIdLabel.setBounds(50,100,75,25);
+		 userPasswordLabel.setBounds(50,150,75,25);
+		 
+		 frame.add(userIdLabel);
+		 frame.add(userPasswordLabel);
 		 frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		 frame.setSize(420,420);
-		 
+		 frame.setLayout(null);
+		 frame.setVisible(true);
 	}
 
 	@Override

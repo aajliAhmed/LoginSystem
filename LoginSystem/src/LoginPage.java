@@ -61,6 +61,10 @@ public class LoginPage implements ActionListener{
 			userIDFielsd.setText("");
 			userPasswordField.setText("");
 		}
+		if(e.getSource()==loginButton) {
+			String userID = userIDFielsd.getText();
+			String password = String.valueOf(userPasswordField.getPassword());
+		}
 		
 	}
 
